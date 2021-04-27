@@ -1,0 +1,13 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: service-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.3.142.82:8848
+
+server-product: # 调用的提供者服务名称
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

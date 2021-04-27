@@ -1,0 +1,30 @@
+2021-04-06 23:23:35,886 INFO initializing Raft sub-system
+
+2021-04-06 23:23:35,887 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2021-04-06 23:23:35,895 INFO raft notifier started
+
+2021-04-06 23:23:35,946 INFO cache loaded, datum count: 0, current term: 0
+
+2021-04-06 23:23:35,946 INFO finish to load data from disk, cost: 59 ms.
+
+2021-04-06 23:23:35,951 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-04-06 23:23:35,685 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-04-06 23:23:36,073 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-04-06 23:23:36,210 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-04-06 23:23:42,070 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-04-06 23:23:50,668 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-04-06 23:23:50,668 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-04-06 23:23:50,668 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-04-06 23:23:53,683 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-04-06 23:35:31,396 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service-product
+

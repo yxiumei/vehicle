@@ -1,0 +1,18 @@
+2021-04-06 23:35:31,508 INFO DEFAULT_GROUP@@service-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.111:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-06 23:35:31,518 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-product, ips: 192.168.0.111:8085_true,
+
+2021-04-06 23:35:31,535 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-product, ips: 192.168.0.111:8085_true,
+
+2021-04-06 23:35:38,231 INFO DEFAULT_GROUP@@service-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.111:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-06 23:35:38,231 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-product, ips: 
+
+2021-04-06 23:48:20,697 INFO DEFAULT_GROUP@@service-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.111:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-06 23:48:20,697 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-product, ips: 192.168.0.111:8085_true,
+
+2021-04-06 23:48:21,667 INFO DEFAULT_GROUP@@service-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.111:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-04-06 23:48:21,667 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-product, ips: 
+

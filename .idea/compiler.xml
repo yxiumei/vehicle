@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vehicle-admin" />
+        <module name="vehicle-domain" />
+        <module name="vehicle-center" />
+        <module name="vehicle-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="vehicle" target="1.8" />
+      <module name="vehicle-admin" target="1.8" />
+      <module name="vehicle-center" target="1.8" />
+      <module name="vehicle-domain" target="1.8" />
+      <module name="vehicle-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="vehicle-admin" options="-parameters" />
+      <module name="vehicle-center" options="-parameters" />
+      <module name="vehicle-domain" options="-parameters" />
+      <module name="vehicle-web" options="-parameters" />
+    </option>
+  </component>
+</project>
