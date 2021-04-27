@@ -1,4 +1,4 @@
-package yxz.yxiumei;
+package yxz.vehicle.center;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

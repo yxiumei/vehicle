@@ -1,4 +1,4 @@
-package yxz.yxiumei.controller;
+package yxz.vehicle.center.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

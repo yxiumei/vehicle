@@ -1,4 +1,4 @@
-package xym.yxiumei.model;
+package xym.vehicle.model;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
