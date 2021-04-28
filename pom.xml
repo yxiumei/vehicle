@@ -26,11 +26,22 @@
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
-        <spring-cloud-alibaba.version>2.1.0.RELEASE</spring-cloud-alibaba.version>
-        <spring-boot-version>2.1.4.RELEASE</spring-boot-version>
+        <spring-cloud-alibaba.version>2.1.2.RELEASE</spring-cloud-alibaba.version>
         <mysql-version>5.1.47</mysql-version>
-        <spring-boot-thymeleaf>2.0.3.RELEASE</spring-boot-thymeleaf>
+        <mybatis-plus-version>3.4.2</mybatis-plus-version>
+        <lombok-version>1.18.2</lombok-version>
+        <sa-token-version>1.18.0</sa-token-version>
+        <swagger-version>1.9.1.RELEASE</swagger-version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok-version}</version>
+        </dependency>
+
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>
@@ -59,28 +70,26 @@
                 <version>${spring-cloud-alibaba.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-data-jpa</artifactId>
-                <version>${spring-boot-version}</version>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus-version}</version>
             </dependency>
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql-version}</version>
             </dependency>
-
             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-thymeleaf</artifactId>
-                <version>${spring-boot-thymeleaf}</version>
+                <groupId>cn.dev33</groupId>
+                <artifactId>sa-token-spring-boot-starter</artifactId>
+                <version>${sa-token-version}</version>
             </dependency>
-
             <dependency>
-                <groupId>yxm.yangxiumei</groupId>
-                <artifactId>vehicle-domin</artifactId>
-                <version>${project.version}</version>
+                <groupId>com.spring4all</groupId>
+                <artifactId>swagger-spring-boot-starter</artifactId>
+                <version>${swagger-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
-    
+
 </project>

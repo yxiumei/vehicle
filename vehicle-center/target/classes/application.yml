@@ -11,4 +11,4 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost/vehicle?useUnicode=true&characterEncoding=UTF8&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Shanghai&autoReconnect=true
     username: root
-    password: mysql123
+    password: 123456

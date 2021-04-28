@@ -8,3 +8,6 @@
 **/.DS_Store
 target
 out
+
+target/
+nacos/
