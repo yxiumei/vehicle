@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import yxz.vehicle.model.entity.RoadInfo;
-import yxz.vehicle.model.service.impl.RoadInfoServiceImpl;
+import yxz.vehicle.yxz.vehicle.center.service.impl.RoadInfoServiceImpl;
 
 import java.util.Arrays;
 import java.util.List;

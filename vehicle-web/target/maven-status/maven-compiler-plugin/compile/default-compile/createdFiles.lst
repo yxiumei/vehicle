@@ -1,3 +1,6 @@
-xyz\yxiumei\controller\OrderController.class
-xyz\yxiumei\OrderApplication.class
-xyz\yxiumei\client\ProductService.class
+xyz\vehicle\client\PathCalculationServer.class
+xyz\vehicle\client\ProductService.class
+xyz\vehicle\controller\PathCalculationController.class
+xyz\vehicle\controller\OrderController.class
+xyz\vehicle\OrderApplication.class
+xyz\vehicle\config\FeignClientsConfigurationCustom.class

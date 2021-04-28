@@ -3,14 +3,11 @@ package yxz.vehicle.center.controller.area;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import yxz.vehicle.model.entity.PointInfo;
-import yxz.vehicle.model.entity.RoadInfo;
-import yxz.vehicle.model.service.impl.PointInfoServiceImpl;
-import yxz.vehicle.model.service.impl.RoadInfoServiceImpl;
+import yxz.vehicle.yxz.vehicle.center.service.impl.PointInfoServiceImpl;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,3 +1,6 @@
-D:\project\verhicle\vehicle-web\src\main\java\xyz\yxiumei\client\ProductService.java
-D:\project\verhicle\vehicle-web\src\main\java\xyz\yxiumei\OrderApplication.java
-D:\project\verhicle\vehicle-web\src\main\java\xyz\yxiumei\controller\OrderController.java
+D:\project\vehicle\vehicle-web\src\main\java\xyz\vehicle\client\PathCalculationServer.java
+D:\project\vehicle\vehicle-web\src\main\java\xyz\vehicle\client\ProductService.java
+D:\project\vehicle\vehicle-web\src\main\java\xyz\vehicle\controller\PathCalculationController.java
+D:\project\vehicle\vehicle-web\src\main\java\xyz\vehicle\config\FeignClientsConfigurationCustom.java
+D:\project\vehicle\vehicle-web\src\main\java\xyz\vehicle\controller\OrderController.java
+D:\project\vehicle\vehicle-web\src\main\java\xyz\vehicle\OrderApplication.java

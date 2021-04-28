@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/vehicle.iml" filepath="$PROJECT_DIR$/vehicle.iml" />
       <module fileurl="file://$PROJECT_DIR$/vehicle-admin/vehicle-admin.iml" filepath="$PROJECT_DIR$/vehicle-admin/vehicle-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vehicle-api/vehicle-api.iml" filepath="$PROJECT_DIR$/vehicle-api/vehicle-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/vehicle-center/vehicle-center.iml" filepath="$PROJECT_DIR$/vehicle-center/vehicle-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/vehicle-domain/vehicle-domain.iml" filepath="$PROJECT_DIR$/vehicle-domain/vehicle-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/vehicle-web/vehicle-web.iml" filepath="$PROJECT_DIR$/vehicle-web/vehicle-web.iml" />

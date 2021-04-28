@@ -21,6 +21,7 @@
         <module>vehicle-web</module>
         <module>vehicle-domain</module>
         <module>vehicle-admin</module>
+        <module>vehicle-api</module>
     </modules>
 
     <properties>
