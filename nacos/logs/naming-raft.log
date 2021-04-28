@@ -28,3 +28,35 @@
 
 2021-04-06 23:35:31,396 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service-product
 
+2021-04-28 09:29:05,007 INFO initializing Raft sub-system
+
+2021-04-28 09:29:05,007 INFO raft notifier started
+
+2021-04-28 09:29:04,906 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.26","key":"192.168.0.26:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-04-28 09:29:05,007 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.26","key":"192.168.0.26:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-04-28 09:29:05,022 INFO finish loading all datums, size: 0 cost 15 ms.
+
+2021-04-28 09:29:05,022 INFO cache loaded, datum count: 0, current term: 0
+
+2021-04-28 09:29:05,022 INFO finish to load data from disk, cost: 15 ms.
+
+2021-04-28 09:29:05,038 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-04-28 09:29:05,069 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-04-28 09:29:07,614 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-04-28 09:29:09,914 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.26","key":"192.168.0.26:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-04-28 09:29:09,914 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.26","key":"192.168.0.26:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-04-28 09:29:09,914 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.26","key":"192.168.0.26:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-04-28 09:29:10,052 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.0.26:8848","leaderDueMs":15747,"state":"FOLLOWER","term":0,"voteFor":""}, term: 0
+
+2021-04-28 09:29:12,946 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.26","key":"192.168.0.26:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-04-28 13:03:11,355 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service-product
+
