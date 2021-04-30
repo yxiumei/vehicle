@@ -1,4 +1,7 @@
 target/
-nacos/
+nacos/logs/
+nacos/bin/logs/
+nacos/target/
+nacos/data/
 .idea/
 *.iml
