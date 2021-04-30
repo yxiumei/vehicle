@@ -6,15 +6,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 119.3.142.82:8848
-  thymeleaf:
-    cache: false
-    check-template: true
-    check-template-location: true
-    enabled: true
-    prefix: classpath:/templates/
-    suffix: .html
-
+        server-addr: 127.0.0.1:8848
 server-product: # 调用的提供者服务名称
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
