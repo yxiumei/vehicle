@@ -11698,3 +11698,37 @@
 
 2021-05-04 15:16:30,139 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
 
+2021-05-04 16:28:30,518 INFO initializing Raft sub-system
+
+2021-05-04 16:28:30,518 INFO raft notifier started
+
+2021-05-04 16:28:30,518 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2021-05-04 16:28:30,528 INFO cache loaded, datum count: 0, current term: 0
+
+2021-05-04 16:28:30,528 INFO finish to load data from disk, cost: 10 ms.
+
+2021-05-04 16:28:30,538 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-05-04 16:28:30,339 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2021-05-04 16:28:30,538 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-05-04 16:28:30,598 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-05-04 16:28:35,226 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2021-05-04 16:28:40,324 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-05-04 16:28:40,324 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2021-05-04 16:28:40,324 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-05-04 16:28:42,362 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.0.111","key":"192.168.0.111:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2021-05-04 16:30:02,867 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service-vehicle
+
+2021-05-04 16:35:36,522 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@vehicle-service
+
+2021-05-04 16:57:43,832 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@vehicle-web
+

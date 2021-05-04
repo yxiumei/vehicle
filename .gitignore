@@ -10,5 +10,7 @@ target
 out
 
 target/
+**/target/
 nacos
 nacos/
+nacos/logs
