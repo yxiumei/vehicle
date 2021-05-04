@@ -11,6 +11,9 @@ out
 
 target/
 **/target/
-nacos
-nacos/
-nacos/logs
+nacos/logs/
+nacos/bin
+nacos/bin/logs/
+nacos/target/
+nacos/data/
+nacos/data/derby-data

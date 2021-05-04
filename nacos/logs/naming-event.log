@@ -102,3 +102,19 @@
 
 2021-05-04 17:20:47,432 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@vehicle-web, ips: 
 
+2021-05-04 17:30:05,473 INFO DEFAULT_GROUP@@vehicle-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.111:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-05-04 17:30:05,473 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@vehicle-service, ips: 192.168.0.111:8085_true,
+
+2021-05-04 17:30:34,970 INFO DEFAULT_GROUP@@vehicle-web {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.111:8091:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-05-04 17:30:34,970 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@vehicle-web, ips: 192.168.0.111:8091_true,
+
+2021-05-04 17:30:47,084 INFO DEFAULT_GROUP@@vehicle-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.111:8085:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-05-04 17:30:47,084 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@vehicle-service, ips: 
+
+2021-05-04 17:30:47,297 INFO DEFAULT_GROUP@@vehicle-web {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.111:8091:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-05-04 17:30:47,297 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@vehicle-web, ips: 
+
