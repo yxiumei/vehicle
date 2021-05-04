@@ -2,7 +2,7 @@ server:
   port: 8085
 spring:
   application:
-    name: service-vehicle
+    name: vehicle-service
   cloud:
     nacos:
       discovery:
@@ -11,4 +11,4 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost/vehicle?useUnicode=true&characterEncoding=UTF8&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Shanghai&autoReconnect=true
     username: root
-    password: 123456
+    password: mysql123

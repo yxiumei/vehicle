@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import yxz.vehicle.model.entity.PointInfo;
-import yxz.vehicle.yxz.vehicle.center.service.impl.PointInfoServiceImpl;
+import yxz.vehicle.center.service.impl.PointInfoServiceImpl;
 
 import java.util.Arrays;
 import java.util.List;
