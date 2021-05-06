@@ -29,10 +29,6 @@
             <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-        <dependency>
             <groupId>yxm.yangxiumei</groupId>
             <artifactId>vehicle-api</artifactId>
             <version>${project.version}</version>

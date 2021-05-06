@@ -7,13 +7,6 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-  thymeleaf:
-    cache: false
-    check-template: true
-    check-template-location: true
-    enabled: true
-    prefix: classpath:/templates/
-    suffix: .html
   main:
     allow-bean-definition-overriding: true
 
