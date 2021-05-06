@@ -1,5 +1,6 @@
 package xyz.vehicle.web;
 
+import com.spring4all.swagger.EnableSwagger2Doc;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -13,6 +14,7 @@ import org.springframework.web.client.RestTemplate;
  */
 @EnableFeignClients
 @SpringBootApplication
+@EnableSwagger2Doc // 开启API文档在线查看 // http://localhost/swagger-ui.html
 @EnableDiscoveryClient
 public class WebStartApplication {
 
