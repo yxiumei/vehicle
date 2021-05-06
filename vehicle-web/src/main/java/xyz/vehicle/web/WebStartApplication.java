@@ -20,11 +20,4 @@ public class WebStartApplication {
         SpringApplication.run(WebStartApplication.class);
     }
 
-
-    @Bean
-    @LoadBalanced
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
-
 }
