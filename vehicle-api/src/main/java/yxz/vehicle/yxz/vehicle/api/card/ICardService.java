@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import yxz.vehicle.model.entity.CardInfo;
 
+import java.util.List;
+
 
 /**
  * @author yangxiumei
@@ -25,4 +27,8 @@ public interface ICardService {
     @ApiOperation("通过手机号查询车辆信息")
     @GetMapping("/getOneById")
     CardInfo getOneById(@RequestParam Long id);
+
+    @ApiOperation("通过手机号查询车辆信息")
+    @GetMapping("/getAll")
+    List<CardInfo> getAllCards();
 }
