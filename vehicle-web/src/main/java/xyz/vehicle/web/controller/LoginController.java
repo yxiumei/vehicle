@@ -30,11 +30,21 @@ public class LoginController {
         StpUtil.setLoginId(oneCardInfo.getId());
     }
 
+    @ApiOperation("退出")
+    @GetMapping("/logout")
+    public void logout() {
+        if (StpUtil.isLogin()) {
+            StpUtil.logout();
+        }
+    }
+
     @ApiOperation("获取当前登录用户或车的信息")
     @GetMapping("/info")
     public CardInfo info() {
         long cardId = StpUtil.getLoginIdAsInt();
         return cardService.getOneById(cardId);
     }
+
+
 
 }

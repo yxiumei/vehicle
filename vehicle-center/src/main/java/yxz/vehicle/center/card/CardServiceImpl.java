@@ -6,6 +6,7 @@ import yxz.vehicle.center.service.ICardInfoService;
 import yxz.vehicle.model.entity.CardInfo;
 import yxz.vehicle.yxz.vehicle.api.card.ICardService;
 
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -31,4 +32,11 @@ public class CardServiceImpl implements ICardService {
     public CardInfo getOneById(Long id) {
         return cardInfoService.getById(id);
     }
+
+    @Override
+    public List<CardInfo> getAllCards() {
+        List<CardInfo> list = cardInfoService.list();
+        return list;
+    }
+
 }
