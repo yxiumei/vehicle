@@ -1,11 +1,22 @@
 <template>
   <div>
-    <h1>主界面</h1>
+    <h1>登录主界面</h1>
+    <div>
+      <el-button @click="toShowPageFun" type="success">登录</el-button>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
+  data () {
+    return {}
+  },
+  methods: {
+    toShowPageFun () {
+      this.$router.push('/show')
+    }
+  }
 }
 </script>
 

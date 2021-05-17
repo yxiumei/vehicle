@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+vue3百度地图组件依赖地址: https://www.npmjs.com/package/min-baidu-map
