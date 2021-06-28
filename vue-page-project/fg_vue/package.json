@@ -45,7 +45,7 @@
       "parser": "babel-eslint"
     },
     "rules": {},
-    "globals":{
+    "globals": {
       "BMap": true
     }
   },
