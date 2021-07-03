@@ -75,5 +75,15 @@ export default {
     })
     // 点击事件测试成功
     // ----------------------------------------------------------------------------------
+    // 每过一秒就重新设置点的位置 | Marker类定义说明: https://lbsyun.baidu.com/cms/jsapi/reference/jsapi_reference_3_0.html#a3b2
+    let r = 116.372
+    setInterval(() => {
+      r = r - 0.0001
+      if (r < 116.340) {
+        r = 116.447
+      }
+      // console.log(r)
+      carMarker.setPosition(new BMap.Point(r, 39.910))
+    }, 10)
   }
 }
